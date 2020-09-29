@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyVibe</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- <li>
+                StudyVibe
+            </li> -->
+        </nav>
+    </header>
+    <main>
+        <h1>
+            StudyVibe - alpha
+        </h1>
+        <h1>
+            Hello, 
+            <span id="user-name">
+                <form class="name-form" onsubmit="saveName();">
+                    <input type="text" placeholder="What is your name?" autocomplete="off">
+                </form>
+            </span>
+        </h1>
+        <h2>
+            Date: <span id="current-date">1/1</span>
+            Time: <span id="current-time">00:00:00</span>
+        </h2>
+        <div class="study-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PLtbUiCH_oPJjsFXC6KlXBmEwnAE6HLubD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <button class="toggleVideo-button" type="button">Show/Hide video</button>
+        </div>
+        <ul class="study-todoList" aria-label="Study To-Do List:">
+            
+        </ul>
+        <form class="todo-form">
+            <input type="text" placeholder="Add TODO items">
+        </form>
+    </main>
+    <footer>
+        
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
